@@ -1,4 +1,4 @@
-# Causal Inference Methods Documentation
+# Causality Documentation
 
 This repository aims to provide a comprehensive collection of methods for performing causal inference, including experimental designs, statistical methods, and advanced machine learning techniques. Each method will be implemented and documented with examples.
 
