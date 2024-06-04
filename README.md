@@ -66,7 +66,7 @@ Causal inference aims to identify causal relationships between variables, going 
 25. **G-computation**
 26. **Marginal Structural Models (MSM)**
 27. **Causal Bayesian Networks**
-28. **Causal Discovery Algorithms (e.g., PC Algorithm, FCI Algorithm)**
+28. **Causal Discovery Algorithms (references: PC Algorithm, FCI Algorithm)**
 
 ### Time-Series and Panel Data Methods
 29. **Fixed Effects Models**
@@ -116,9 +116,9 @@ Causal inference aims to identify causal relationships between variables, going 
 59. **Integrative Causal Inference (combining multiple methods)**
 
 ### Causal Inference Software Tools
-60. **Epidemiological Software (e.g., DAGitty)**
-61. **Statistical Packages (e.g., R's `MatchIt`, `twang` for IPW, `Zelig`, Python's `causalml`, `DoWhy`)**
-62. **Machine Learning Libraries (e.g., `econML`, `causalForest` in R)**
+60. **Epidemiological Software (references: DAGitty)**
+61. **Statistical Packages (references: R's `MatchIt`, `twang` for IPW, `Zelig`, Python's `causalml`, `DoWhy`)**
+62. **Machine Learning Libraries (references: `econML`, `causalForest` in R)**
 
 ## Development Plan
 
