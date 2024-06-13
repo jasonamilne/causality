@@ -25,7 +25,7 @@ import random
 import numpy as np
 from collections import defaultdict
 
-class Randomizations:
+class Randomizations():
     def __init__(self, participants, groups, seed=None):
         """Initializes the Randomizations class with participants and groups.
 
@@ -36,6 +36,7 @@ class Randomizations:
         """
         self.participants = participants
         self.groups = groups
+        self.seed = seed
         if seed is not None:
             self.set_random_seed(seed)
 
@@ -54,6 +55,8 @@ class Randomizations:
         Returns:
             dict: A dictionary with group names as keys and lists of assigned participants as values.
         """
+        if self.seed is not None:
+            self.set_random_seed(self.seed)
         random.shuffle(self.participants)
         return {group: self.participants[i::len(self.groups)] for i, group in enumerate(self.groups)}
     
